@@ -8,7 +8,7 @@ import {
   StatusBar,
 } from 'react-native'
 
-import { CLIENT_ID, CLIENT_SECRET } from './config'
+import { CLIENT_ID, CLIENT_SECRET, REDIRECT_URL } from './config'
 
 import LinkedInModal, { LinkedInToken } from './src/'
 
@@ -133,7 +133,7 @@ export default class AppContainer extends React.Component<{}, State> {
             ref={this.modal}
             clientID={CLIENT_ID}
             clientSecret={CLIENT_SECRET}
-            redirectUri="https://xaviercarpentier.com"
+            redirectUri={REDIRECT_URL}
             onSuccess={this.getUser}
           />
           <Button

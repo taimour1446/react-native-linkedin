@@ -4,6 +4,7 @@ exports[`<LinkedInModal /> render correctly 1`] = `
 <View>
   <View
     accessible={true}
+    focusable={true}
     hitSlop={
       Object {
         "bottom": 10,
@@ -12,7 +13,7 @@ exports[`<LinkedInModal /> render correctly 1`] = `
         "top": 10,
       }
     }
-    isTVSelectable={true}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -64,7 +65,8 @@ exports[`<LinkedInModal /> render correctly 1`] = `
       />
       <View
         accessible={true}
-        isTVSelectable={true}
+        focusable={true}
+        onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}

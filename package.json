@@ -35,24 +35,23 @@
   },
   "devDependencies": {
     "@types/jest": "24.0.17",
-    "@types/react": "16.9.4",
-    "@types/react-native": "0.60.17",
-    "@types/uuid": "^3.4.4",
     "@types/ramda": "^0.25.47",
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "@types/uuid": "^3.4.4",
     "babel-jest": "24.9.0",
+    "babel-preset-expo": "^8.3.0",
     "babel-preset-react-native": "^4.0.0",
-    "babel-preset-expo": "^7.0.0",
-    "expo": "^35.0.0",
-    "husky": "3.0.8",
+    "expo": "^39.0.0",
+    "jest-expo": "^39.0.0",
     "json": "^9.0.6",
-    "jest-expo": "^35.0.0",
-    "react": "16.8.3",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
-    "react-native-webview": "7.0.5",
+    "react": "16.13.1",
+    "react-native": "0.63.3",
+    "react-native-webview": "10.7.0",
     "react-test-renderer": "16.8.3",
     "tslint": "5.12.0",
     "tslint-config-prettier": "1.17.0",
-    "typescript": "3.4.5"
+    "typescript": "~3.9.2"
   },
   "peerDependencies": {
     "react": "*",
@@ -74,10 +73,5 @@
     "testMatch": [
       "**/*.test.ts?(x)"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn lint && yarn tsc && yarn test"
-    }
   }
 }
